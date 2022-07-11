@@ -7,10 +7,28 @@
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center;
+    font-weight: bolder;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
   }
 
   #title {
     height: 130px;
+  }
+
+  #title h1 {
+    margin-top: 0px;
+    padding-top: 10px;
   }
 
   #img-div, #image {
@@ -24,11 +42,8 @@
   #image {
     max-width: 100%;
     display: block;
-    margin: 0 auto;
-  }
-
-  #img-caption {
-    background-color: white;
+    float: right;
+    padding-right: 100px;
   }
 
   #tribute-info {
