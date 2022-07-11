@@ -1,0 +1,33 @@
+#main{
+    text-align: center;
+    max-width: 100%;
+    font-family: cursive;
+  }
+  #title{
+    height: 130px;
+  }
+  #img-div{
+    height: 300px;
+    background-color: silver;
+  }
+  #image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  #img-caption{
+    background-color: white;
+  }
+  #tribute-info{
+    margin-top: 50px;
+  }
+  ul{
+    list-style: none;
+    text-align: center;
+    max-width: 100%;
+  }
+  #tribute-link{
+    color: green;
+    text-decoration: none;
+  }
